@@ -1,0 +1,20 @@
+#接口配置（基本不用修改）
+apis:
+  # 首页
+  index: 'http://ydfwpt.cug.edu.cn/index.html'
+  # 登陆
+  login: 'http://ydfwpt.cug.edu.cn/login.html'
+  # 空闲场地列表
+  findOkArea: 'http://ydfwpt.cug.edu.cn/product/findOkArea.html'
+  # 场地下单
+  order: 'http://ydfwpt.cug.edu.cn/order/tobook.html'
+  # 支付
+  pay: 'http://ydfwpt.cug.edu.cn/pay/account/topay.html'
+user:
+  # 学号
+  username: '1202211216'
+  password: '060030'
+earliestOrderTime: '12:00:00'
+target:
+  - time: 19
+    number: 5
